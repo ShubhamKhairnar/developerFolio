@@ -84,6 +84,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-cloud"
     },
     {
+      skillName: "GCP",
+      fontAwesomeClassname: "fas fa-google"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -102,7 +106,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Mumbai",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/college.png"),
       subHeader: "Bachelor of Engineering in Computers",
       duration: "June 2014 - May 2018",
       desc:
@@ -293,6 +297,12 @@ const blogSection = {
       title: "Data-at-Rest encryption in MySQL",
       description:
         "The encryption of data at rest should only include strong encryption methods such as AES or RSA. Encrypted data should remain encrypted when access controls such as usernames and password fail. Increasing encryption on multiple levels is recommended."
+    },
+    {
+      url: "https://shubhamkhairnar.medium.com/cloudcraft-create-your-infrastructure-in-a-snap-339980375baa",
+      title: "Cloudcraft: create your infrastructure in a snap",
+      description:
+        "Create a professional architecture diagram in minutes with the Cloudcraft visual designer, optimized for AWS with smart components."
     }
   ],
   display: true // Set false to hide this section, defaults to true
