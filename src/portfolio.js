@@ -15,7 +15,7 @@ const greeting = {
     "A passionate DevOps Engineer 🚀 having an experience of automating deployments with Jenkins / Docker / Kubernetes / Cloud and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1tw1S4dybHkBIGVPCpY2DfLPwCuLyeuDH/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,11 +39,11 @@ const skillsSection = {
   subTitle: "CRAZY DEVOPS ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly effective CI / CD pipelines for your web applications"
+      "⚡ Develop highly effective CI / CD pipelines for your applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Manage and secure cloud activities"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Containerisation and orchestration of applications "
     )
   ],
 
@@ -72,18 +72,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -92,8 +80,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "azure",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
       skillName: "python",
@@ -137,7 +125,7 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "Containerization & K8s deployments",
+      Stack: "Containerization & Kubernetes deployments",
       progressPercentage: "70%"
     }
   ],
