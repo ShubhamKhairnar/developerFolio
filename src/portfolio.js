@@ -76,6 +76,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "GIT",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "prometheus",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "grafana",
+      fontAwesomeClassname: "fas fa-cog"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -147,32 +159,16 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      company: "CitiusTech",
+      companylogo: require("./assets/images/ct-logo.png"),
+      date: "July 2018 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "CitiusTech works at the edge of digital transformation. It focuses on multiple areas of digital technology, such as Business Intelligence, mobility & IoT, Big Data, Cloud Computing, Predictive Analytics & Data Science..",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked as DevOps Engineer and developed continuous integration and deployment pipeline",
+        "Implemented Prometheus-Grafana Implementation Single Handedly"
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -190,28 +186,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS I WAS PART OF TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/danaher-logo.png"),
+      projectName: "MLOps",
+      projectDesc: " A subset of ModelOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.danaher.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ct-logo.png"),
+      projectName: "Core Resource Monitoring Dashboard (CRDe)",
+      projectDesc: "A real time monitoring and alerting dashboard for all the applications.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.citiustech.com/"
         }
       ]
     }
@@ -247,31 +243,18 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Smart India Hackathon 2020 - Mentor",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Mentor of Smart India Hackathon 2020 by Ministry Of Human Resource Development.",
+      image: require("./assets/images/SIH.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Certification",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            "https://micds.aicte-india.org/cert-module/templates/mentors/mentor_certificate_generator.php?email=shubhamkhairnar123@gmail.com%20&&mid=2"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
