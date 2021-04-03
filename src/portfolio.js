@@ -53,7 +53,7 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fab fa-kubernetes"
+      fontAwesomeClassname: "fas fa-dharmachakra"
     },
     {
       skillName: "Jenkins",
@@ -61,11 +61,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Ansible",
-      fontAwesomeClassname: "fab fa-ansible"
+      fontAwesomeClassname: "fab fa-autoprefixer"
     },
     {
       skillName: "Postman",
-      fontAwesomeClassname: "fab fa-postman"
+      fontAwesomeClassname: "fas fa-male"
     },
     {
       skillName: "Linux",
@@ -85,15 +85,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "fas fa-google"
+      fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "python",
+      skillName: "python scripting",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "bash scripting",
+      fontAwesomeClassname: "fas fa-scroll"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -110,7 +114,7 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering in Computers",
       duration: "June 2014 - May 2018",
       desc:
-        "Ranked 2nd in the college. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+        "Ranked 2nd in the college. Took courses about Software Engineering, Web Security, Operating Systems, machine learning",
     }
   ]
 };
@@ -221,29 +225,24 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified Developer - Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "This demonstrates proficiency in writing applications with AWS service APIs, AWS CLI, and SDKs; using containers; and deploying with a CI/CD pipeline.",
+      image: require("./assets/images/aws-logo.png"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://drive.google.com/file/d/12whFiO4TXVtcQ9_vhVHBVn8AVJhFTHyw/view"
         },
         {
-          name: "Award Letter",
+          name: "Medium Blog",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            "https://shubhamkhairnar.medium.com/how-to-pass-aws-certified-developer-associate-exam-3b2f41244379"
         }
       ]
     },
