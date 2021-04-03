@@ -245,7 +245,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon 2020 - Mentor",
       subtitle:
-        "Mentor of Smart India Hackathon 2020 by Ministry Of Human Resource Development.",
+        "It is a nationwide initiative to provide students with a platform to solve some of the pressing problems we face in our daily lives.",
       image: require("./assets/images/SIH.png"),
       footerLink: [
         {
