@@ -191,7 +191,7 @@ const bigProjects = {
     {
       image: require("./assets/images/danaher-logo.png"),
       projectName: "MLOps",
-      projectDesc: " A subset of ModelOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle",
+      projectDesc: " A subset of ModelOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle.",
       footerLink: [
         {
           name: "Visit Website",
@@ -203,7 +203,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ct-logo.png"),
       projectName: "Core Resource Monitoring Dashboard (CRDe)",
-      projectDesc: "A real time monitoring and alerting dashboard for all the applications.",
+      projectDesc: "CRDe enables project teams to monitor key metrics spread across application, infrastructure, network etc. in real time and invoke custom alerts in case any metric threshold is breached.",
       footerLink: [
         {
           name: "Visit Website",
