@@ -161,7 +161,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "CitiusTech",
       companylogo: require("./assets/images/ct-logo.png"),
-      date: "July 2018 – Present",
+      date: "July 2018 – April 2021",
       desc:
         "CitiusTech works at the edge of digital transformation. It focuses on multiple areas of digital technology, such as Business Intelligence, mobility & IoT, Big Data, Cloud Computing, Predictive Analytics & Data Science..",
       descBullets: [
@@ -169,6 +169,18 @@ const workExperiences = {
         "Implemented Prometheus-Grafana Implementation Single Handedly"
       ]
     },
+    {
+      role: "Senior Executive",
+      company: "Shaadi.com",
+      companylogo: require("./assets/images/shaadi.png"),
+      date: "April 2021 – Present",
+      desc:
+        "Shaadi.com is an online wedding service which has become the world's leading matrimonial website for Asians and have more than twenty million users"
+      descBullets: [
+        "Working as DevOps Engineer and responsible for continuous integration and deployment pipeline",
+        "Involved in automation of activities over the cloud"
+      ]
+    }
   ]
 };
 
