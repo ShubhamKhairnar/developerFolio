@@ -248,9 +248,9 @@ const achievementSection = {
             "https://drive.google.com/file/d/12whFiO4TXVtcQ9_vhVHBVn8AVJhFTHyw/view"
         },
         {
-          name: "Medium Blog",
+          name: "Blog",
           url:
-            "https://shubhamkhairnar.medium.com/how-to-pass-aws-certified-developer-associate-exam-3b2f41244379"
+            "https://aimlessengineer.com/2021/04/21/how-to-pass-aws-certified-developer-associate-exam"
         }
       ]
     },
