@@ -287,13 +287,13 @@ const blogSection = {
         "To keep the software you build secure, keeping your dependency packages up-to-date is the easiest way. keeping your dependencies regularly updated , it’s a tedious task."
     },
     {
-      url: "https://shubhamkhairnar.medium.com/data-at-rest-encryption-in-mysql-a8abd3a864de",
+      url: "https://aimlessengineer.com/2021/04/26/data-at-rest-encryption-in-mysql",
       title: "Data-at-Rest encryption in MySQL",
       description:
         "The encryption of data at rest should only include strong encryption methods such as AES or RSA. Encrypted data should remain encrypted when access controls such as usernames and password fail. Increasing encryption on multiple levels is recommended."
     },
     {
-      url: "https://shubhamkhairnar.medium.com/cloudcraft-create-your-infrastructure-in-a-snap-339980375baa",
+      url: "https://aimlessengineer.com/2021/05/04/cloudcraft-create-your-infrastructure-in-a-snap",
       title: "Cloudcraft: create your infrastructure in a snap",
       description:
         "Create a professional architecture diagram in minutes with the Cloudcraft visual designer, optimized for AWS with smart components."
