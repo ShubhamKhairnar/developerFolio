@@ -175,7 +175,7 @@ const workExperiences = {
       companylogo: require("./assets/images/shaadi.png"),
       date: "April 2021 – Present",
       desc:
-        "Shaadi.com is an online wedding service which has become the world's leading matrimonial website for Asians and have more than twenty million users"
+        "Shaadi.com is an online wedding service which has become the world's leading matrimonial website for Asians and have more than twenty million users",
       descBullets: [
         "Working as DevOps Engineer and responsible for continuous integration and deployment pipeline",
         "Involved in automation of activities over the cloud"
