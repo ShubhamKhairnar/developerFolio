@@ -15,7 +15,7 @@ const greeting = {
     "A passionate DevOps Engineer 🚀 having an experience of automating deployments with Jenkins / Docker / Kubernetes / Cloud and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1tw1S4dybHkBIGVPCpY2DfLPwCuLyeuDH/view",
+    "https://drive.google.com/file/d/1zP5NONqUtbLeDTLzyUyibl8aMNLqHuFX/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ShubhamKhairnar",
   linkedin: "https://www.linkedin.com/in/shubham-khairnar-091996/",
-  gmail: "shubhamkhairnar123@gmail.com",
+  gmail: "shubham.khairnar2022@gmail.com",
   facebook: "https://www.facebook.com/shubham.khairnar3",
   medium: "https://medium.com/@shubhamkhairnar",
   instagram: "https://www.instagram.com/i_m_shk__",
@@ -281,7 +281,7 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://shubhamkhairnar.medium.com/dependabot-keep-your-dependencies-up-to-date-ec4699e63486",
+        "https://aimlessengineer.com/2021/05/21/dependabot-keep-your-dependencies-up-to-date/",
       title: "Dependabot - keep your dependencies up to date",
       description:
         "To keep the software you build secure, keeping your dependency packages up-to-date is the easiest way. keeping your dependencies regularly updated , it’s a tedious task."
@@ -339,7 +339,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-9764342364",
-  email_address: "shubhamkhairnar123@gmail.com"
+  email_address: "shubham.khairnar2022@gmail.com"
 };
 
 // Twitter Section
